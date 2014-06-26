@@ -1,8 +1,5 @@
 # One Month Rails
 
-This is the pinteresting sample application for *one month rails* (http://www.onemonthrails.com)
-
-Just trying stuff out here...
-
+This is the pinteresting sample application for *One Month Rails* (http://www.onemonthrails.com)
 
 By Rik D
