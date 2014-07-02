@@ -7,3 +7,8 @@ $ ->
 		$("#pins").masonry
 			itemSelector: '.box'
 			isFitWidth: true
+			animationOptions: 
+    			duration: 750,
+    			easing: 'linear'
+    			queue: false
+  			
