@@ -5,5 +5,7 @@ class Pin < ActiveRecord::Base
 	#do_not_validate_attachment_file_type :image
 	validates_attachment :image, :content_type => { :content_type => ["image/jpeg", "image/gif", "image/png"] }
 	#validates_attachment_size :image, :less_than=>1.megabyte
+  	validates :image, presence: true
+	validates :description, presence: true
 
 end
